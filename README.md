@@ -1,14 +1,26 @@
 # anonydog
 
-A Discord bot designed to... well, that part is up to you.
+A extremely simple Discord bot designed to facilitate anonymous messaging.
 
 ## Usage
 
-FIXME
+You must create a `config.edn` file in the root directory (adjacent to README.md).
+Its contents should appear as follows:
+
+```clojure
+{:token "DISCORD BOT TOKEN"
+ :anon-nonce "INSERT ANY RANDOM STRING HERE"
+ :playing "DM me and say !help"
+ :anon-channel-id "CHANNEL ID WHERE DMs SHOULD BE FORWARDED"}
+```
+
+NOTE: The anon-nonce value must be kept secret.
+
+Then, run the bot with `lein run`.
 
 ## License
 
-Copyright © 2020 FIXME
+Copyright © 2020 Nikola Bura
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
