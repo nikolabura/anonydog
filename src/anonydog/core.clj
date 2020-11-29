@@ -59,6 +59,7 @@
           mess-content
         )
       )
+      (discord-rest/create-message! (:rest @state) dm-channel :content "Sent.")
     )
   ))
 
