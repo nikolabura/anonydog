@@ -15,7 +15,7 @@
     "since the bot operator should totally 'refresh' the IDs every couple of weeks anyways - don't get too "
     "attached to your anonymous ID.\n"
     "Note: The newid system is not particularly robust. Though it is very unlikely, file corruption or "
-    "human error on the bot server may result in you accidentally re-gaining your *original* ID. Please do not "
+    "human error on the bot server may result in you accidentally re-gaining your *original* anonymous ID. Please do not "
     "rely too much on newid secrecy.\n"
     "Note: You have acquired " how-many-uses " new IDs so far.\n"
     "Anyways, to confirm you wish to get a new ID, type\n"
