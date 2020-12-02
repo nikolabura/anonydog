@@ -1,4 +1,4 @@
-(defproject anonydog "0.1.1"
+(defproject anonydog "0.2.1"
   :description "Discord anonymous messaging bot"
   :url "N/A"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
