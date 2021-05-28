@@ -52,6 +52,18 @@ changing of the `anon-nonce` value), in which case it's fine (though not necessa
 you delete or corrupt the `hasheslist.edn` file, then all ID-changed users will revert back to their original IDs.
 This should be avoided!
 
+### Docker Hosting
+
+An experimental Docker image is provided. To run it, create a `config.edn` file somewhere as described above, and then
+run the container using a command like the following (assuming `config.edn` has been created in the current directory).
+
+```
+docker run -d -v $(pwd)/config.edn:/usr/src/anonydog/config.edn anonydog
+```
+
+Consider also using a `-v` volume to persist the `hasheslist.edn` file, or otherwise, avoid removing and re-creating
+the container.
+
 ## Bot Usage
 
 The bot is controlled completely through DMs (direct messages).
